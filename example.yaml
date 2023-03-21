@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=example.schema.json
+namespace: default
+direction:
+  - egress
+pod_name: apiserver
+label_selector: 'app=apiserver'
+test_duration: 30
+wait_duration: 30

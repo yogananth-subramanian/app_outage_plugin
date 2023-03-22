@@ -1,0 +1,5 @@
+version: '3.2'
+services:
+  plugin:
+    image: ghcr.io/yogananth-subramanian/app_outage_plugin:latest
+    build: .

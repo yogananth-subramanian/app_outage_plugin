@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "app_outage_plugin"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 arcaflow-lib-kubernetes = "^0.1.0"
 
 
